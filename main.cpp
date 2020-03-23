@@ -15,44 +15,39 @@ int main() {
 
 
 	Person student;
-	while(true){
+	while(true){					//бесконечный цикл для удобства работы
 		cout << "Нажмите 1 чтобы ввести данные студента\n";
-		cout << "Íàæìèòå 2 ÷òîáû ïîñìîòðåòü äàííûå î ñòóäåíòå\n";
-		cout << "Íàæìèòå 3 ÷òîáû ñêîïèðîâàòü\n";
-		cout << "Íàæìèòå 4 ÷òîáû âûéòè\n\n";
+		cout << "Нажмите 2 чтобы посмотреть данные о студенте\n";
+		cout << "Нажмите 3 чтобы скопировать\n";
+		cout << "Нажмите 4 чтобы выйти\n\n";
 		cin >> a;
 
-		if (a == 1) {
-			cout << "Ââåäèòå èìÿ ñòóäåíòà: ";
+		if (a == 1) {				//ввод информациии о студенте
+			cout << "Введите имя студента: ";
 			cin >> name;
 			student.SetName(name);
-			cout << "Ââåäèòå ôàìèëèþ ñòóäåíòà: ";
+			cout << "Введите фамилию студента: ";
 			cin >> surname;
 			student.SetSurname(surname);
-			cout << "Ââåäèòå ãîä ðîæäåíèÿ:";
+			cout << "Введите год рождения:";
 			cin >> year;
 			student.SetYear(year);
 		}
 
-		if (a == 2) {
-            cout << "student1" << endl;
+		if (a == 2) {				//вывод информации об 1-ом студенте
+            		cout << "student1" << endl;
 			student.print();
-			Person student2;
-			cout << "student2" << endl;
-			student2.print();
-			Person student3;
-			cout << "student3" << endl;
-            student3.print();
 		}
 
-		if (a == 3) {
-            //cout << "Èìÿ ñòóäåíòà: " << student.GetName() << endl;
-			//cout << "Ôàìèëèÿ ñòóäåíòà: " << student.GetSurname() << endl;
-			//cout << "Ãîä ðîæäåíèÿ: " << student.GetYear() << endl << endl;
-			Person student3 = student;
+		if (a == 3) {				//копирование данных 1-го студента 
+            		Person student2 = student;
+           		cout << "Студент 1";
+          		student.print();
+           		cout << "Студент 2";
+           		student2.print();
 		}
 
-		if (a == 4) {
+		if (a == 4) {				//выход из программы
 			return 0;
 		}
 
