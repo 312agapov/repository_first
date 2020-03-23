@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1583081605 source:d:\vakin\учёба\языки програмирования\2 семестр си++\jjgj\vaklab1\file2.cpp
+	"file.h"
+
+1583081317 d:\vakin\учёба\языки програмирования\2 семестр си++\jjgj\vaklab1\file.h
+	<iostream>
+	<windows.h>
+	<string>
+	<cstdlib>
+	<conio.h>
+
+1583081656 source:d:\vakin\учёба\языки програмирования\2 семестр си++\jjgj\vaklab1\main.cpp
+	"file.h"
+
+1583418013 source:d:\vakin\учёба\языки програмирования\2 семестр си++\vaklab1\file2.cpp
+	"file.h"
+	<string>
+
+1583417087 d:\vakin\учёба\языки програмирования\2 семестр си++\vaklab1\file.h
+	<iostream>
+	<windows.h>
+	<string>
+	<cstdlib>
+	<conio.h>
+
+1583418168 source:d:\vakin\учёба\языки програмирования\2 семестр си++\vaklab1\main.cpp
+	"file.h"
+	<string>
+
+1583425627 source:c:\users\leonid\desktop\vaklab1\file2.cpp
+	"file.h"
+	<string>
+
+1583425627 c:\users\leonid\desktop\vaklab1\file.h
+	<iostream>
+	<windows.h>
+	<string>
+	<cstdlib>
+	<conio.h>
+
+1583425560 source:c:\users\leonid\desktop\vaklab1\main.cpp
+	"file.h"
+	<string>
+
+1584200720 source:c:\users\leonid\desktop\agapovlab1\file2.cpp
+	"file.h"
+	<string>
+
+1584032365 c:\users\leonid\desktop\agapovlab1\file.h
+	<iostream>
+	<windows.h>
+	<string>
+	<cstdlib>
+	<conio.h>
+
+1584032648 source:c:\users\leonid\desktop\agapovlab1\main.cpp
+	"file.h"
+	<string>
+
