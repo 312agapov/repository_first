@@ -41,9 +41,9 @@ int main() {
 
 		if (a == 3) {				//копирование данных 1-го студента 
             		Person student2 = student;
-           		cout << "Студент 1";
+           		cout << "Студент 1\n";
           		student.print();
-           		cout << "Студент 2";
+           		cout << "Студент 2\n";
            		student2.print();
 		}
 
